@@ -127,7 +127,7 @@ class MemberRepositoryTest {
         //then
         assertEquals(findMember.getUserName(), "member1");
     }
-
+    
     @Test
     @DisplayName("search")
     void search() {
